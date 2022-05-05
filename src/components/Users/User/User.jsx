@@ -1,7 +1,7 @@
 import { Avatar, Text, IconButton } from "@chakra-ui/react";
 import { useState } from "react";
-import useDeleteUser from "../../../hooks/useDeleteUser";
 
+import useDeleteUser from "../../../hooks/useDeleteUser";
 import UserForm from "../../UserForm/UserForm";
 
 import "./User.scss";

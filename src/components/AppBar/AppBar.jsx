@@ -8,8 +8,8 @@ import {
     Text,
     useDisclosure,
 } from "@chakra-ui/react";
-import { sortOptions } from "../../utils/sortOptions";
 
+import { sortOptions } from "../../utils/sortOptions";
 import UserForm from "../UserForm/UserForm";
 
 import "./AppBar.scss";

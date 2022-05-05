@@ -1,5 +1,6 @@
 import { Button, Input } from "@chakra-ui/react";
 import { useReducer } from "react";
+
 import useAddUser from "../../hooks/useAddUser";
 import useUpdateUser from "../../hooks/useUpdateUser";
 
@@ -64,11 +65,6 @@ const UserForm = ({ isEditMode, user = {}, isAddUser = false, onSend }) => {
         });
 
     const isFormValid = () => formState.first_name && formState.last_name;
-
-    const commonProps = {
-        isReadOnly: !isEditMode,
-        variant: isEditMode ? "outline" : "unstyled",
-    };
 
     const handleSendReq = () => {
         if (onSend) {
