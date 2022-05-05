@@ -1,0 +1,18 @@
+.app-bar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    padding: 0 80px;
+    z-index: 10;
+
+    &__select {
+        display: flex;
+        gap: 10px;
+        color: #fff;
+        align-items: center;
+    }
+}

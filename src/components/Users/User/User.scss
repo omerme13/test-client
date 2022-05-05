@@ -1,0 +1,28 @@
+.user {
+    padding: 10px 20px;
+    width: 60%;
+    height: 100px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(#000, 0.1);
+    display: flex;
+    // transition: height 0.3s;
+    
+    &__buttons {
+        font-size: 26px;
+        display: flex;
+        gap: 10px;
+    }
+    &__display {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    &--open {
+        height: 400px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
